@@ -43,6 +43,15 @@ export default function Index() {
           </a>
         </li>
       </ul>
+    <hr />
+    <h1 className="text-3xl">My Profile</h1>
+    <img src="img\4k-beautiful-colorful-abstract-wallpaper-photo.jpg" ></img>
+      <ul className="list-disc mt-4 pl-6 space-y-2">
+        <li>Name: Preewatin Prateepchamcharas</li>
+        <li>Class: Information Technology</li>
+        <li>E-mail: <a href="mailto : preewatin.pra@rmutto.ac.th ">Contact me.</a></li>
+      </ul>
+      
     </div>
   );
 }
