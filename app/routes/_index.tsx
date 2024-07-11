@@ -1,8 +1,10 @@
 import type { MetaFunction } from "@remix-run/node";
+import MyCard from "./MyCard";
+
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "Mr. Phakphum Rungjaemjaeng" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
@@ -10,7 +12,8 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix</h1>
+      <MyCard />
+      {/* <h1 className="text-3xl">Welcome to Remix</h1>
       <ul className="list-disc mt-4 pl-6 space-y-2">
         <li>
           <a
@@ -43,15 +46,15 @@ export default function Index() {
           </a>
         </li>
       </ul>
-    <hr />
-    <h1 className="text-3xl">My Profile</h1>
-    <img src="img\4k-beautiful-colorful-abstract-wallpaper-photo.jpg" ></img>
+      <hr />
+      <h1 className="text-3xl">My Profile</h1>
       <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>Name: Preewatin Prateepchamcharas</li>
-        <li>Class: Information Technology</li>
-        <li>E-mail: <a href="mailto : preewatin.pra@rmutto.ac.th ">Contact me.</a></li>
-      </ul>
-      
+        <li>Name : Phakphum Rungjaemjaeng</li>
+        <li>Class : Information Technology</li>
+        <li>E-Mail : <a href="mailoto : phakphum.run@rmutto.ac.th">Contact Me.</a></li>
+          </ul>
+          <img src="img/images.jpg" ></img> */}
     </div>
+
   );
 }
